@@ -931,7 +931,7 @@ contract Devia8 is ERC20, Ownable {
     
     event OwnerForcedSwapBack(uint256 timestamp);
 
-    constructor() ERC20("Devia8", "D8") {
+    constructor() ERC20("Devia8", "Devia8") {
         
         IUniswapV2Router02 _uniswapV2Router = IUniswapV2Router02(0x10ED43C718714eb63d5aA57B78B54704E256024E);
 
